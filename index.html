@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Star Wars Responsive Challenge</title>
-
+  <meta name="description" content="Star Wars Responive Challenge digital trading card game">
   <!-- Responsive viewport tag, tells small screens that it's responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,9 +15,65 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
   <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/float-grid.css" />
+  <link rel="stylesheet" href="css/main.css" />
 
 </head>
-<body>
 
+<body>
+  <header>
+    <div class="row"> 
+      <a class="logo">
+        <h1>Star Wars Characters</h1>
+        <h2>Incomplete list</h2>
+      </a>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="row">
+        <div class="col-1">
+          <figure>
+            <img class="resize" src="images/rey_square.png" alt="Rey">
+            <figcaption><b>Rey</b><br />Protagonist, from Jakku</figcaption>
+          </figure>
+        </div>
+        <div class="col-1">
+          <figure>
+            <img class="resize" src="images/finn_square.png" alt="Finn">
+            <figcaption><b>Finn</b><br />Stormtrooper, befriends Rey</figcaption>
+          </figure>
+        </div>
+        <div class="col-1">
+          <figure>
+            <img class="resize" src="images/kylo_square.png" alt="Kylo">
+            <figcaption><b>Kylo</b><br />Main villian, pathetic</figcaption>
+          </figure>
+        </div>
+    </div>
+    </section>
+    <section>
+      <div class="row">
+        <div class="col-2">
+          <figure>
+            <img class="resize" src="images/poe_square.png" alt="Poe">
+            <figcaption><b>Poe</b><br />Neutral Pilot</figcaption>
+          </figure>
+        </div>
+        <div class="col-2">
+          <figure>
+            <img class="resize" src="images/chewbacca_square.png" alt="Chewbacca">
+            <figcaption><b>Chewbacca</b><br />A great first mate</figcaption>
+          </figure>
+        </div>
+        <div class="col-2">
+          <figure>
+            <img class="resize" src="images/yoda_square.png" alt="Yoda">
+            <figcaption><b>Yoda</b><br />Wise old Jedi master</figcaption>
+          </figure>
+        </div>
+    </div>
+    </section>
 </body>
+
 </html>
