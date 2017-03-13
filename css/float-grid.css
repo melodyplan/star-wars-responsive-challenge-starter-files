@@ -19,19 +19,19 @@
   clear: both;
 }
 
-.col-1, .col-2 {
+.col {
   float: left;
   padding-left: 1.04166666%;
   padding-right: 1.04166666%;
 }
 
 /*mobile*/
-.col-1, .col-2 {
+.col {
     width: 100%;
 }
 
 @media only screen and (min-width: 640px) {
-    .col-1, .col-2 {
+    .col {
         width: 33.33%;
     }
 }

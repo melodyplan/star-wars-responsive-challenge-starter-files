@@ -22,13 +22,10 @@ header {
     font-weight: 800;
 }
 
-img {
-    height: 31.25%;
-    float: left;
-    text-align: center;
+figure {
+    margin: 0;
 }
 
 img.resize {
-    height: 300px;
-    width: auto;
+    width: 100%;
 }
